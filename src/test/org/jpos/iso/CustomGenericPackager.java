@@ -1,7 +1,7 @@
 package org.jpos.iso;
 
 /*
- * Created on 14 août 07 by dgrandemange
+ * Created on 14 aoÃ»t 07 by dgrandemange
  *
  * Copyright (c) 2005 Setib
  * All rights reserved.
@@ -29,8 +29,8 @@ import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 /**
- * Un packager générique qui surcharge le GenericPackager de JPos en y ajoutant
- * la possibilité d'injecter un EntityResolver
+ * Un packager gÃ©nÃ©rique qui surcharge le GenericPackager de JPos en y ajoutant
+ * la possibilitÃ© d'injecter un EntityResolver
  * 
  * @author dgrandemange
  * 
@@ -38,8 +38,8 @@ import org.xml.sax.helpers.XMLReaderFactory;
 public class CustomGenericPackager extends GenericPackager {
 
 	/**
-	 * Résolveur d'entités qui par défaut associe à un id publique d'entité, la
-	 * ressource conf/genericpackager.dtd relative à cette classe
+	 * RÃ©solveur d'entitÃ©s qui par dÃ©faut associe Ã  un id publique d'entitÃ©, la
+	 * ressource conf/genericpackager.dtd relative Ã  cette classe
 	 */
 	private EntityResolver entityResolver = new EntityResolver() {
 
@@ -91,7 +91,7 @@ public class CustomGenericPackager extends GenericPackager {
         } catch (SAXException e) {
             reader = XMLReaderFactory.createXMLReader (
                 System.getProperty( 
-                    "org.xml.sax.driver", 
+                    "org.xml.sax.driver2", 
                     "org.apache.crimson.parser.XMLReaderImpl"
                 )
             );
