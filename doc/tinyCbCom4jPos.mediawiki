@@ -7,7 +7,7 @@ You can find two subsidiary sample modules in this project :
 *''jpos/modules/cbcomSimulator'' : mounts a CBCOM server simulator; the CBCOM channel is wrapped in server deployment configuration
 *''jpos/modules/cbcomClientSimulator''  : mounts a dummy CBCOM client; the CBCOM channel is wrapped in a channel adaptor configuration
 
-<p>You may take a careful look at these two distinct channel configurations as their properties declaration may vary depending on the CBCOM channel role (client or server). </p>
+<p>You may take a careful look at these two distinct channel configurations as their properties declaration may vary depending on the CBCOM channel role (client or server)...</p>
 
 
 = Implemented features =
