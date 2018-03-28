@@ -1,3 +1,5 @@
+Readme file in progress: need to add instruction for building the wallet, etc.
+
 # Info on ISO 8583: this iso is used by our CB2 protocol with cryptonote algorithm
 [![Build Status](https://travis-ci.org/alejandrogutierrez/iso-8583.png?branch=master)](https://travis-ci.org/alejandrogutierrez/iso-8583) [![Coverage Status](https://coveralls.io/repos/alejandrogutierrez/iso-8583/badge.svg?branch=master)](https://coveralls.io/r/alejandrogutierrez/iso-8583?branch=master)
 
